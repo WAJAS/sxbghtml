@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>实习报告-WAJAS</title>
+<!-- TemplateEndEditable -->
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-grid.css">
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div class="app">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+	<a class="navbar-brand" href="#">WAJAS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+	<span class="navbar-toggler-icon"></span> 
+	</button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> 
+			<a class="nav-link" href="#">主页 </a>
+		</li>
+        <li class="nav-item dropdown"> 
+			<a class="nav-link dropdown-toggle" href="#" id="list1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 第一天 </a>
+            <div class="dropdown-menu" aria-labelledby="list1">
+			  <a class="dropdown-item" href="#">炘源晶</a> 
+		    </div>
+            
+		</li>
+        <li class="nav-item dropdown"> 
+			<a class="nav-link dropdown-toggle" href="#" id="list2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 第二天 </a>
+            <div class="dropdown-menu" aria-labelledby="list2"> 
+		      <a class="dropdown-item" href="#">轴承博物馆</a> 
+			  <a class="dropdown-item" href="#">安全讲座</a> 
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">中浩德电商集团</a> 
+              <a class="dropdown-item" href="#">钢圈网</a> 
+			</div>
+        </li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="list3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 第三天 </a>
+		    <div class="dropdown-menu" aria-labelledby="list3"> 
+		      <a class="dropdown-item" href="#">河柴</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">中信重工</a> 
+			</div>
+        </li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="list4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 第四天 </a>
+		    <div class="dropdown-menu" aria-labelledby="list4"> 
+		      <a class="dropdown-item" href="#">发电设备</a>
+			</div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="footer"></div>
+</body>
+</html>
