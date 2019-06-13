@@ -1,29 +1,91 @@
 @charset "utf-8";
 /* CSS Document */
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "微软雅黑";
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	text-decoration: none;
 }
-
-
-.footer{
+body {
+	background-color: #111;
+}
+canvas {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+.bodyer {
+	text-align: center;
+	margin: auto;
+}
+/*加载动画*/
+.title a {
+	animation-name: show;
+	/* animation-delay: 3s; */
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	display: block;
+	margin-top: 200px;
+	color: #fff;
+	font-size: 100px;
+}
+@keyframes show {
+ 0% {
+ color: #000;
+ font-size: 30px;
+}
+ 100% {
+ color: #fff;
+ font-size: 100px;
+}
+}
+.body1 {
+	margin: auto;
+	width: 1000px;
+	position: relative;
+}
+.name {
+	animation-name: wajas;
+	animation-duration: 6s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	position: absolute;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+	right: 0px;
+}
+@keyframes wajas {
+ 0% {
+ color: rgba(0,0,0,0);
+ right: 200px;
+}
+ 50% {
+ color: rgba(0,0,0,0);
+ right: 200px;
+}
+ 100% {
+ color: rgba(255,255,255,1);
+ right: 0px;
+}
+}
+.footer {
 	width: 100%;
 	background-color: #333;
 	color: darkgray;
 }
-.body2{
-	margin:30px auto;
+.body2 {
+	margin: 30px auto;
 }
-.footer p{
+.footer p {
 	width: 1200px;
 	margin: auto;
 	line-height: 1.5em;
 }
-.carousel{
+.carousel {
 	margin: auto;
 	text-align: center;
 }
-.carousel-item img{
-width: 100%;
+.carousel-item img {
+	width: 100%;
 }
