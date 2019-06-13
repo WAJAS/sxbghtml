@@ -41,17 +41,17 @@
 <div class="box"></div>
 <div class="container">
   <div class="row">
-    <div class="col-2"><img src="../img/IMG_20190527_141905.jpg" class="img-fluid" alt="...">
-    </div><h3>
-  Fancy display heading
-  <small class="text-muted">With faded secondary text</small>
-</h3>
-    </div>
-  </div>
-	 <div class="row">
+    <div class="col-4"><img src="../img/IMG_20190527_141905.jpg" class="img-fluid" alt="..."> </div>
+	  <div class="col-8">
+    <h3> 炘源晶光伏科技（洛阳）有限公司</h3>
+		  <p>炘源晶光伏科技（洛阳）有限公司是一家中外合资的光伏新能源企业，，位于河南省洛阳市西工区洛阳工业园区汉宫路。公司于2007年6月注册成立，建设总投资6000万元，于2008年2月正式投产。</p>
+		  <p>炘源晶光伏科技（洛阳）有限公司的主导产品是太阳能电池组件、太阳能光伏发电系统及太阳能光伏发电的应用产品，是一家集研发、设计、生产和销售于一体的综合性公司。</p>
+		  <p>公司先后荣获“河南省科技企业”、“河南省重点出口企业”、“河南省AA级出口企业”、“洛阳市科技企业”、“洛阳市重点民营企业”等多项荣誉称号。</p>
+		  <p>公司具备健全的管理体系，已通过ISO-9001、ISO-14001、OHSAS-18001认证；公司的产品质量已通过国内的“金太阳认证”、国际上的德国TUV认证、CE认证、美国UL认证、美国加州CEC认证、英国MCS认证。</p>
+  </div>  </div>
+  <div class="row">
     <div class="col">
-    </div>
-    <div class="col">
+      <iframe src="http://www.sunworld-power.com/" frameborder="0" width="100%" height="1000"></iframe>
     </div>
   </div>
 </div>
