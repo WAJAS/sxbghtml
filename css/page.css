@@ -1,3 +1,64 @@
 @charset "utf-8";
 /* CSS Document */
-.box{height: 60px;}
+* {
+	font-family: microsoft yahei;
+}
+.box {
+	height: 60px;
+}
+p {
+	text-indent: 2em;
+}
+.header {
+	background-color: #bbb;
+	padding: 20px;
+	text-align: center;
+	color: #126DF8;
+}
+
+.bd-1-l{
+	width: 40%;
+	float: left;
+	text-align: center;
+}
+.bd-1-l p{
+	line-height: 3em;
+	color: cadetblue;
+	font-size: 2em;
+	text-indent: 0em;
+}
+.bd-1-l img{
+	width: 80%;
+}
+.bd-1-r{
+	width: 60%;
+	float: right;
+	padding: 2%;
+}
+.hei{
+	height: 20px;
+}
+.footer {
+	background-color: #666666;
+	color: #FFFFFF;
+	line-height: 3em;
+}
+.foot {
+	margin: auto;
+}
+/*@media (min-width: 10px)and (max-width: 20px) {}*/
+@media (max-width: 767.98px) {
+.bd-1-l{
+	width: 100%;
+}
+.bd-1-l img{
+	width: 80%;
+}
+.bd-1-r{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+}
+
